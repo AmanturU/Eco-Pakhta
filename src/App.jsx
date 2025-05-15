@@ -47,7 +47,10 @@ function App() {
   return (
     <div>
       {/* Первый блок */}
-      <div className="flex items-center justify-between mt-24 bg-gray-50">
+      <div
+        id="home"
+        className="flex items-center justify-between mt-24 bg-gray-50"
+      >
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-5 justify-center">
           {/* Текстовая часть */}
           <div className="flex flex-col justify-center items-center lg:items-start">
@@ -85,7 +88,10 @@ function App() {
       </div>
 
       {/* Второй блок */}
-      <div className="mt-32 flex flex-col justify-center items-center text-center px-4">
+      <div
+        id="aboutProduct"
+        className="mt-32 flex flex-col justify-center items-center text-center px-4"
+      >
         <div className="w-full max-w-8xl">
           <p className="text-sm font-semibold text-gray-700">EcoPakhta</p>
           <h1 className="text-3xl md:text-6xl font-bold text-gray-900 my-8">
@@ -117,7 +123,10 @@ function App() {
       </div>
 
       {/* Третий блок */}
-      <div className="flex items-center justify-between mt-36 bg-gray-50">
+      <div
+        id="forWhom"
+        className="flex items-center justify-between mt-36 bg-gray-50"
+      >
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-5 justify-center">
           {/* Левый блок с изображением */}
           <div className="flex justify-center items-center">
@@ -154,7 +163,7 @@ function App() {
       </div>
 
       {/* Четвертый блок */}
-      <div className="py-12 mt-24 bg-gray-100">
+      <div id="aboutUs" className="py-12 mt-24 bg-gray-100">
         <h2 className="text-center text-4xl font-bold text-gray-900 mb-16">
           Transform Your Space with Eco-Friendly Insulation Solutions
         </h2>
@@ -299,7 +308,10 @@ function App() {
       </div>
 
       {/* Седьмой блок */}
-      <div className="py-16 bg-gradient-to-r from-gray-200 to-gray-300 px-6 rounded-md mt-12">
+      <div
+        id="profitability"
+        className="py-16 bg-gradient-to-r from-gray-200 to-gray-300 px-6 rounded-md mt-12"
+      >
         <div className="container mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
             Profitability of the Project
@@ -324,7 +336,10 @@ function App() {
       </div>
 
       {/* Большой блок - Инновация проекта */}
-      <div className="w-full mt-8 bg-gradient-to-r from-green-400 to-blue-500 py-16 px-6 rounded-t-md">
+      <div
+        id="innovation"
+        className="w-full mt-8 bg-gradient-to-r from-green-400 to-blue-500 py-16 px-6 rounded-t-md"
+      >
         <div className="container mx-auto text-center">
           <h1 className="text-6xl sm:text-5xl md:text-6xl font-bold text-white mb-4">
             WHAT IS THE INNOVATION OF OUR PROJECT?
@@ -562,7 +577,10 @@ function App() {
       </div>
 
       {/* Блок контактов */}
-      <div className="relative bg-gradient-to-r from-green-400 to-blue-500 text-white py-16 px-6 rounded-lg shadow-lg mt-36">
+      <div
+        id="contact-us"
+        className="relative bg-gradient-to-r from-green-400 to-blue-500 text-white py-16 px-6 rounded-lg shadow-lg mt-36"
+      >
         <div className="absolute inset-0 bg-black bg-opacity-30 rounded-lg"></div>
 
         <div className="relative z-10 text-center max-w-3xl mx-auto">

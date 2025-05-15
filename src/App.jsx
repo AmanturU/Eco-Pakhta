@@ -30,6 +30,8 @@ function App() {
     ],
   };
 
+  // const aboutRef = useRef;
+
   return (
     <div>
       {/* Первый блок */}

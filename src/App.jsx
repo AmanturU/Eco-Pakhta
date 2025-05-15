@@ -124,8 +124,8 @@ function App() {
             <div className="w-[500px] h-[500px] relative">
               <img
                 className="w-full h-full object-cover rounded-lg"
-                src="/public/research.jpg"
-                alt="hands"
+                src="/research.jpg"
+                alt="research"
               />
             </div>
           </div>
@@ -341,25 +341,25 @@ function App() {
               <div className="flex items-center gap-6 lg:gap-8 flex-wrap justify-center">
                 <img
                   className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 object-cover relative rounded-lg"
-                  src="/public/waste-paper.png"
+                  src="/waste-paper.png"
                   alt="Waste Paper"
                 />
                 <span className="text-3xl font-bold text-gray-700">+</span>
                 <img
                   className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 object-cover rounded-lg"
-                  src="/public/boric-acid.png"
+                  src="/boric-acid.png"
                   alt="Boric Acid"
                 />
                 <span className="text-3xl font-bold text-gray-700">+</span>
                 <img
                   className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 object-cover rounded-lg"
-                  src="/public/borax.png"
+                  src="/borax.png"
                   alt="Borax"
                 />
                 <span className="text-3xl font-bold text-gray-700">=</span>
                 <img
                   className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 object-cover rounded-lg"
-                  src="/public/ecopakhta-final.png"
+                  src="/ecopakhta-final.png"
                   alt="EcoPakhta Material"
                 />
               </div>
@@ -498,17 +498,17 @@ function App() {
             <div className="flex items-center justify-center relative w-full h-[400px]">
               <img
                 className="absolute right-0 transform -rotate-6 w-[250px]"
-                src="/public/meshok.png"
+                src="/meshok.png"
                 alt="Machine 1"
               />
               <img
                 className="absolute z-10 w-[300px]"
-                src="/public/shreder.png"
+                src="/shreder.png"
                 alt="Machine 2"
               />
               <img
                 className="absolute left-0 transform w-[250px]"
-                src="/public/smesitel.png"
+                src="/smesitel.png"
                 alt="Machine 3"
               />
             </div>

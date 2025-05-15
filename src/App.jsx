@@ -575,11 +575,11 @@ function App() {
           <div className="text-lg">
             <p className="mb-2">
               <span className="font-semibold">INSTAGRAM:</span>{" "}
-              @enactus.politech
+              @enactus_polytechnic
             </p>
             <p className="mb-2">
               <span className="font-semibold">E-mail:</span>{" "}
-              enactus.politech@gmail.com
+              amanturulukbekov06@gmail.com
             </p>
             <p className="mb-6">
               <span className="font-semibold">Telephone number:</span> +996 701

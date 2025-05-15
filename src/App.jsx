@@ -76,7 +76,7 @@ function App() {
             <div className="w-[600px] h-[600px] relative">
               <img
                 className="w-full h-full object-cover rounded-lg"
-                src="/public/hands.png"
+                src="/hands.png"
                 alt="hands"
               />
             </div>
